@@ -1,0 +1,25 @@
+{
+  "name": "promptprism-workspace",
+  "private": true,
+  "version": "0.0.0",
+  "description": "TypeScript-native, agent-aware prompt eval framework with cross-family bias dampening. Coding agent is the first deep specialization. Workspace root.",
+  "license": "Apache-2.0",
+  "engines": {
+    "node": ">=20"
+  },
+  "workspaces": [
+    "packages/*",
+    "adapters/*"
+  ],
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc -b",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "typescript": "^5.5.0",
+    "vitest": "^3.2.4"
+  }
+}

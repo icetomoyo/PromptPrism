@@ -1,0 +1,23 @@
+{
+  "name": "@promptprism/cli",
+  "version": "0.0.0",
+  "description": "PromptPrism CLI — `npx promptprism run case.yml` entrypoint. Stub; implementation lands in W2.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "promptprism": "./dist/cli.js"
+  },
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@promptprism/core": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

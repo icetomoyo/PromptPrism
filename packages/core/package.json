@@ -1,0 +1,17 @@
+{
+  "name": "@promptprism/core",
+  "version": "0.0.0",
+  "description": "PromptPrism core: AgentAdapter / Validator / Judge / Alias interfaces and harness runtime.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

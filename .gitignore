@@ -1,0 +1,16 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+.idea/
+.vscode/
+*.log
+.env
+.env.local
+coverage/
+results/
+.turbo/
+
+# Handoff / personal-context files — preserved locally for owner reference,
+# never published to repo. Path-leak prevention (security audit 2026-05-09).
+HANDOFF_PROMPT.md

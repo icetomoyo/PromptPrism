@@ -1,0 +1,20 @@
+{
+  "name": "@promptprism/validators",
+  "version": "0.0.0",
+  "description": "PromptPrism validators umbrella — language toolchain runners (TS/Python/Rust/Go). Stub; per-language packages may be split in W3 (PROJECT_PLAN).",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "tsc -b",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@promptprism/core": "*"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
